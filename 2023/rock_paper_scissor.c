@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<conio.h>
-char player1;
-char player2;
-char cont;
+char player1,player2,cont;
 void main(){
+
    do{
+
         printf("Welcome to Rock, Paper and Scissors! Please press enter to continue to the game!");
         getch();
         printf("\nPlayer 1 please choose r for rock, p for paper or s for scissors:  ");
@@ -45,5 +45,7 @@ void main(){
 
         printf("\nI hope you enjoyed the game! Please press y to play again : ");
         scanf(" %c",&cont);
+
     } while(cont=='y');
+
 }
