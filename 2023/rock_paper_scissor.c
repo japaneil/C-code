@@ -45,6 +45,5 @@ void main(){
 
         printf("\nI hope you enjoyed the game! Please press y to play again : ");
         scanf(" %c",&cont);
-        getch();
     } while(cont=='y');
 }
