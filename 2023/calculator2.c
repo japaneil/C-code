@@ -25,4 +25,5 @@ int main(){
     else{
         printf("Invalid Input");
     }
+    getch();
 }
