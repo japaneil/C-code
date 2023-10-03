@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
-char player1;
-char player2;
-char cont;
+char player1,player2,cont;
+
 void main(){
 
    do{
